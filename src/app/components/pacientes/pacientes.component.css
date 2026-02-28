@@ -1,0 +1,8 @@
+.card-header, .btn-save {
+    background-color: goldenrod;
+    color: #eee;
+}
+
+.form-label {
+    color: goldenrod;
+}
