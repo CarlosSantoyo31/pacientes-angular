@@ -1,8 +1,19 @@
-.card-header, .btn-save {
-    background-color: goldenrod;
-    color: #eee;
+.card-header,
+.btn-save {
+  background-color: #ffd700;
+  color: #f9f9f9;
 }
 
 .form-label {
-    color: goldenrod;
+  color: goldenrod;
+}
+
+.card-body {
+  background-color: #e4e3e3;
+}
+
+input, textarea {
+    border-color: #ffd700;
+    border-radius: 10px;
+    border-width: .2rem;
 }
