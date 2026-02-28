@@ -30,4 +30,8 @@ export class AuthService {
   get currentUser() {
     return this.auth.currentUser;
   }
+
+  get uid(): string | null {
+    return this.auth.currentUser ? this.auth.currentUser.uid : null;
+  }
 }
