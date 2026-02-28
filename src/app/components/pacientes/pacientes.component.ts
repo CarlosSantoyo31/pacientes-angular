@@ -57,6 +57,7 @@ export class PacientesComponent implements OnInit {
       fechaNacimiento: ['', Validators.required],
       domicilio: ['', Validators.required],
       correoElectronico: ['', [Validators.required, Validators.email]],
+      // ownerId: this.authService.uid
     });
   }
 
