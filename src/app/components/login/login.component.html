@@ -1,29 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body class="background">
-  <div class="container">
-  <div class="row justify-content-center">
-    <div class="col-md-6">
-      <div class="card shadow mt-4">
-        <div class="card-body text-center p-5">
-          <h2 class="mb-4">Gestión de Pacientes - El Místico</h2>
-          <p class="text-muted mb-4">Inicia sesión para continuar</p>
-          
-          <button class="btn btn-success btn-lg w-100" 
-                  (click)="loginWithGoogle()">
-            <i class="bi bi-google"></i> Iniciar sesión con Google
-          </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="background">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card shadow mt-4">
+            <div class="card-body text-center p-5">
+              <h2 class="mb-4">Gestión de Pacientes - El Místico</h2>
+              <p class="text-muted mb-4">Inicia sesión para continuar</p>
+
+              <button
+                class="btn btn-success btn-lg w-100 btn-google"
+                (click)="loginWithGoogle()"
+              >
+                <i class="bi bi-google"></i> Iniciar sesión con Google
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="login-img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfjBhF2x9vMckouNfYEUMOvOuVdkrhvhxBXg&s" alt=""></div>
-</body>
+    <div class="login-img">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfjBhF2x9vMckouNfYEUMOvOuVdkrhvhxBXg&s"
+        alt=""
+      />
+      <img
+        src="https://preview.redd.it/20-years-ago-mistico-fka-caristico-and-sin-cara-made-his-v0-1gkiphrg7e7d1.jpeg?auto=webp&s=de598eeb25e24483e5f0921b1df20b42a5a017e3"
+        alt=""
+      />
+      <img src="https://cdn.milenio.com/uploads/media/2025/09/26/mistico-hawlucha-derrota-hechicero-machamp.jpg" alt="">
+    </div>
+  </body>
 </html>
